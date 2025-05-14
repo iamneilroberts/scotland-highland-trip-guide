@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scotland Highland Heritage Trip - Daily Guide</title>
+    <style>
+        :root {
+            --primary-color: #1E5B94;
+            --secondary-color: #5F8670;
+            --accent-color: #BF826B;
+            --light-bg: #F5F5F5;
+            --dark-text: #333;
+            --light-text: #FFF;
+            --border-radius: 8px;
+            --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--dark-text);
+            background-color: var(--light-bg);
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background-color: var(--primary-color);
+            color: var(--light-text);
+            padding: 30px 20px;
+            text-align: center;
+            border-radius: var(--border-radius);
+            margin-bottom: 30px;
+            box-shadow: var(--box-shadow);
+            background-image: linear-gradient(to right, var(--primary-color), #2A6EAE);
+        }
+        
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--secondary-color);
+            padding-bottom: 10px;
+            margin-top: 40px;
+        }
+        
+        h3 {
+            color: var(--secondary-color);
+            margin-top: 30px;
+            background-color: rgba(95, 134, 112, 0.1);
+            padding: 10px;
+            border-radius: var(--border-radius);
+        }
+        
+        .day-card {
+            background-color: white;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            margin-bottom: 25px;
+            overflow: hidden;
+        }
+        
+        .day-header {
+            background-color: var(--secondary-color);
+            color: var(--light-text);
+            padding: 15px 20px;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .day-content {
+            padding: 20px;
+        }
+        
+        .time-section {
+            margin-bottom: 15px;
+        }
+        
+        .time-label {
+            font-weight: bold;
+            color: var(--primary-color);
+            margin-right: 10px;
+        }
+        
+        .accommodation, .tip {
+            margin-top: 15px;
+            padding: 10px;
+            border-radius: var(--border-radius);
+        }
+        
+        .accommodation {
+            background-color: rgba(30, 91, 148, 0.1);
+            border-left: 4px solid var(--primary-color);
+        }
+        
+        .tip {
+            background-color: rgba(191, 130, 107, 0.1);
+            border-left: 4px solid var(--accent-color);
+        }
+        
+        .info-section {
+            background-color: white;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            padding: 20px;
+            margin-top: 40px;
+        }
+        
+        ul {
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            background-color: var(--primary-color);
+            color: var(--light-text);
+            border-radius: var(--border-radius);
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .day-header {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Scotland Highland Heritage Trip</h1>
+            <p>Daily Guide for Neil Roberts & Party - April 20-29, 2025</p>
+        </header>
+        
+        <div class="day-card">
+            <div class="day-header">
+                <span>Day 1: Sunday, April 20</span>
+                <span>Travel Day</span>
+            </div>
+            <div class="day-content">
+                <div class="time-section">
+                    <span class="time-label">Morning/Afternoon:</span>
+                    <span>Depart Mobile (MOB)</span>
+                </div>
+                <div class="time-section">
+                    <span class="time-label">Evening:</span>
+                    <span>Flight to Charlotte (CLT) → London Heathrow (LHR)</span>
+                </div>
+                <div class="accommodation">
+                    <strong>Overnight:</strong> In transit
+                </div>
+            </div>
+        </div>
+        
+        <div class="day-card">
+            <div class="day-header">
+                <span>Day 2: Monday, April 21</span>
+                <span>Arrival in Scotland</span>
+            </div>
+            <div class="day-content">
+                <div class="time-section">
+                    <span class="time-label">Morning:</span>
+                    <span>Arrive London Heathrow → Flight to Inverness (INV)</span>
+                </div>
+                <div class="time-section">
+                    <span class="time-label">Afternoon:</span>
+                    <ul>
+                        <li>Collect rental car at Inverness Airport</li>
+                        <li>Drive to Inverness (25 min)</li>
+                        <li>Check in at <strong>20a, By The Ness</strong> accommodation</li>
+                    </ul>
+                </div>
+                <div class="time-section">
+                    <span class="time-label">Evening:</span>
+                    <span>Explore Inverness city center, dinner by River Ness</span>
+                </div>
+                <div class="accommodation">
+                    <strong>Accommodation:</strong> 20a, By The Ness
+                </div>
+                <div class="tip">
+                    <strong>Tip:</strong> Rest well after travel; short walk along River Ness recommended
+                </div>
+            </div>
+        </div>
+        
+        <div class="day-card">
+            <div class="day-header">
+                <span>Day 3: Tuesday, April 22</span>
+                <span>Inverness & Loch Ness</span>
+            </div>
+            <div class="day-content">
+                <div class="time-section">
+                    <span class="time-label">Morning:</span>
+                    <span>Breakfast at accommodation, explore Inverness Castle viewpoint</span>
+                </div>
+                <div class="time-section">
+                    <span class="time-label">Afternoon:</span>
+                    <ul>
+                        <li>Drive to Loch Ness (30 min)</li>
+                        <li>Optional Loch Ness boat cruise or Urquhart Castle visit</li>
+                    </ul>
+                </div>
+                <div class="time-section">
+                    <span class="time-label">Evening:</span>
+                    <span>Return to Inverness, dinner in city</span>
+                </div>
+                <div class="accommodation">
+                    <strong>Accommodation:</strong> 20a, By The Ness
+                </div>
+            </div>
+        </div>
+        
+        <div class="day-card">
+            <div class="day-header">
+                <span>Day 4: Wednesday, April 23</span>
+                <span>Culloden & Clava Cairns</span>
+            </div>
+            <div class="day-content">
+                <div class="time-section">
+                    <span class="time-label">Morning:</span>
+                    <span>Breakfast, then visit Culloden Battlefield (15 min drive)</span>
+                    <ul>
+                        <li>Allow 2-3 hours for visitor center and battlefield walk</li>
+                    </ul>
+                </div>
+                <div class="time-section">
+                    <span class="time-label">Afternoon:</span>
+                    <ul>
+                        <li>Clava Cairns prehistoric site (5 min drive from Culloden)</li>
+                        <li>Traditional Scottish lunch at a local pub</li>
+                    </ul>
+                </div>
+                <div class="time-section">
+                    <span class="time-label">Evening:</span>
+                    <span>Return to Inverness</span>
+                </div>
+                <div class="accommodation">
+                    <strong>Accommodation:</strong> 20a, By The Ness
+                </div>
+            </div>
+        </div>
+        
+        <div class="day-card">
+            <div class="day-header">
+                <span>Day 5: Thursday, April 24</span>
+                <span>Highland Exploration</span>
+            </div>
+            <div class="day-content">
+                <div class="time-section">
+                    <span class="time-label">Morning:</span>
+                    <span>Breakfast, then scenic drive through eastern Highlands</span>
+                </div>
+                <div class="time-section">
+                    <span class="time-label">Afternoon:</span>
+                    <ul>
+                        <li>Visit Highland distillery (options: Glen Ord, Tomatin, or Dalwhinnie)</li>
+                        <li>Explore Highland villages</li>
+                    </ul>
+                </div>
+                <div class="time-section">
+                    <span class="time-label">Evening:</span>
+                    <span>Return to Inverness for final night</span>
+                </div>
+                <div class="accommodation">
+                    <strong>Accommodation:</strong> 20a, By The Ness
+                </div>
+            </div>
+        </div>
+        
+        <div class="day-card">
+            <div class="day-header">
+                <span>Day 6: Friday, April 25</span>
+                <span>Journey to Isle of Skye</span>
+            </div>
+            <div class="day-content">
+                <div class="time-section">
+                    <span class="time-label">Morning:</span>
+                    <ul>
+                        <li>Check out from Inverness accommodation</li>
+                        <li>Scenic drive to Isle of Skye (2.5 hours)</li>
+                        <li>Cross Skye Bridge</li>
+                    </ul>
+                </div>
+                <div class="time-section">
+                    <span class="time-label">Afternoon:</span>
+                    <ul>
+                        <li>Arrive at Isle of Skye</li>
+                        <li>Visit Kilt Rock and Mealt Falls viewpoint</li>
+                    </ul>
+                </div>
+                <div class="time-section">
+                    <span class="time-label">Evening:</span>
+                    <ul>
+                        <li>Check in at <strong>Aurora B&B</strong></li>
+                        <li>Dinner in Portree</li>
+                    </ul>
+                </div>
+                <div class="accommodation">
+                    <strong>Accommodation:</strong> Aurora B&B
+                </div>
+                <div class="tip">
+                    <strong>Tip:</strong> Stop at Eilean Donan Castle en route to Skye
+                </div>
+            </div>
+        </div>
+        
+        <div class="day-card">
+            <div class="day-header">
+                <span>Day 7: Saturday, April 26</span>
+                <span>Isle of Skye & Raasay Day Trip</span>
+            </div>
+            <div class="day-content">
+                <div class="time-section">
+                    <span class="time-label">Morning:</span>
+                    <ul>
+                        <li>Early breakfast</li>
+                        <li>Drive to Sconser (35-40 min)</li>
+                        <li>9:30 AM ferry to Isle of Raasay (25 min journey)</li>
+                    </ul>
+                </div>
+                <div class="time-section">
+                    <span class="time-label">Midday:</span>
+                    <ul>
+                        <li>Visit Isle of Raasay Distillery</li>
+                        <li>Lunch at Raasay House or distillery café</li>
+                    </ul>
+                </div>
+                <div class="time-section">
+                    <span class="time-label">Afternoon:</span>
+                    <ul>
+                        <li>Short scenic walk on Raasay (Temptation Hill or Miners' Trail)</li>
+                        <li>3:15 or 4:30 PM ferry back to Skye</li>
+                    </ul>
+                </div>
+                <div class="time-section">
+                    <span class="time-label">Evening:</span>
+                    <span>Return to accommodation, dinner in Portree</span>
+                </div>
+                <div class="accommodation">
+                    <strong>Accommodation:</strong> Aurora B&B
+                </div>
+                <div class="tip">
+                    <strong>Tip:</strong> No advance booking needed for ferry; arrive 15 min early
+                </div>
+            </div>
+        </div>
+        
+        <div class="day-card">
+            <div class="day-header">
+                <span>Day 8: Sunday, April 27</span>
+                <span>Return to Mainland</span>
+            </div>
+            <div class="day-content">
+                <div class="time-section">
+                    <span class="time-label">Morning:</span>
+                    <ul>
+                        <li>Check out from Skye accommodation</li>
+                        <li>Visit any final Skye attractions (Fairy Pools or Old Man of Storr)</li>
+                    </ul>
+                </div>
+                <div class="time-section">
+                    <span class="time-label">Afternoon:</span>
+                    <ul>
+                        <li>Drive east across Skye Bridge to mainland Scotland</li>
+                        <li>Scenic route to Inverness/Nairn area</li>
+                    </ul>
+                </div>
+                <div class="time-section">
+                    <span class="time-label">Evening:</span>
+                    <span>Free time</span>
+                </div>
+                <div class="accommodation">
+                    <strong>Accommodation:</strong> TBD
+                </div>
+            </div>
+        </div>
+        
+        <div class="day-card">
+            <div class="day-header">
+                <span>Day 9: Monday, April 28</span>
+                <span>Nairn Day</span>
+            </div>
+            <div class="day-content">
+                <div class="time-section">
+                    <span class="time-label">Morning:</span>
+                    <span>Explore Nairn Beach and harbor</span>
+                </div>
+                <div class="time-section">
+                    <span class="time-label">Afternoon:</span>
+                    <ul>
+                        <li>Visit nearby Cawdor Castle</li>
+                        <li>Optional golf at championship course</li>
+                    </ul>
+                </div>
+                <div class="time-section">
+                    <span class="time-label">Evening:</span>
+                    <ul>
+                        <li>Check in at <strong>Golf View Hotel & Spa</strong></li>
+                        <li>Enjoy hotel spa facilities and AA Rosette restaurant</li>
+                    </ul>
+                </div>
+                <div class="accommodation">
+                    <strong>Accommodation:</strong> Golf View Hotel & Spa
+                </div>
+                <div class="tip">
+                    <strong>Tip:</strong> Book spa treatments in advance if desired
+                </div>
+            </div>
+        </div>
+        
+        <div class="day-card">
+            <div class="day-header">
+                <span>Day 10: Tuesday, April 29</span>
+                <span>Return Travel Day</span>
+            </div>
+            <div class="day-content">
+                <div class="time-section">
+                    <span class="time-label">Morning:</span>
+                    <ul>
+                        <li>Breakfast at hotel</li>
+                        <li>Check out</li>
+                        <li>Drive to Inverness Airport (11 min)</li>
+                        <li>Return rental car</li>
+                    </ul>
+                </div>
+                <div class="time-section">
+                    <span class="time-label">Afternoon/Evening:</span>
+                    <ul>
+                        <li>Flight: Inverness (INV) → London Heathrow (LHR)</li>
+                        <li>Flight: London Heathrow (LHR) → Charlotte (CLT)</li>
+                        <li>Flight: Charlotte (CLT) → Mobile (MOB)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="info-section">
+            <h2>Essential Contact Information</h2>
+            <ul>
+                <li><strong>20a, By The Ness:</strong> 20A Gordonville Road, Inverness</li>
+                <li><strong>Aurora B&B, Isle of Skye:</strong> [Contact details to be provided]</li>
+                <li><strong>Golf View Hotel & Spa:</strong> 63 Seabank Road, Nairn, IV12 4HD | +44 1667 452301</li>
+                <li><strong>Raasay Ferry:</strong> No advance booking required | CalMac Ferries: +44 1475 650 397</li>
+                <li><strong>Rental Car Company:</strong> [Contact details to be provided]</li>
+                <li><strong>Emergency:</strong> 999 or 112 for all emergency services in Scotland</li>
+            </ul>
+            
+            <h2>Weather & Packing Tips</h2>
+            <ul>
+                <li><strong>April in Scotland:</strong> Temperatures range from 5-13°C (40-55°F)</li>
+                <li>Pack layers, waterproof jacket, comfortable walking shoes</li>
+                <li>Portable power bank/adapter for UK outlets (3-pin, 230V)</li>
+                <li>Binoculars for wildlife spotting, especially on Raasay</li>
+            </ul>
+        </div>
+        
+        <footer>
+            <p>Scotland Highland Heritage Trip Guide - April 2025</p>
+            <p>Created for Neil Roberts & Party</p>
+        </footer>
+    </div>
+</body>
+</html>
